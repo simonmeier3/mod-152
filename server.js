@@ -10,7 +10,7 @@ app.use(express.static('response'));
 
 // Aufgabe 1: SCSS
 app.post('/api/css/scss', function (req, res) {
-    fs.writeFileSync('response/response.scss', req.body.data.scss, () => {
+    fs.writeFileSync('response.scss', req.body.data.scss, () => {
     });
     sass.render({
         file: "response.scss"
