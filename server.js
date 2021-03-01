@@ -6,7 +6,7 @@ const app = express();
 
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
-app.use(express.static('response'));
+
 
 // Aufgabe 1: SCSS
 app.post('/api/css/scss', function (req, res) {
