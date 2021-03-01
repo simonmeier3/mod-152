@@ -9,6 +9,7 @@ app.use(express.json());
 app.use(express.static('response'));
 
 // Aufgabe 1: SCSS
+/**
 app.post('/api/css/scss', function (req, res) {
     fs.writeFileSync('response.scss', req.body.data.scss, () => {
     });
@@ -40,6 +41,12 @@ app.post('/api/css/less', function (req, res) {
             res.status(400).send(error);
         }
     });
+});
+*/
+
+app.get('/api/healthcheck', function (req, res) {
+   res.json({alive: true});
+   res.status(200);
 });
 
 app.listen(process.env.PORT || 7000);
