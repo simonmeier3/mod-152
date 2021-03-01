@@ -1,7 +1,6 @@
 {
   "name": "aufgabe1",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "dependencies": {
     "express": "^4.17.1",
@@ -19,10 +18,11 @@
     "url": "git+https://github.com/simonmeier3/mod-152.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Simon Meier",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/simonmeier3/mod-152/issues"
   },
-  "homepage": "https://github.com/simonmeier3/mod-152#readme"
+  "homepage": "https://github.com/simonmeier3/mod-152#readme",
+  "description": ""
 }
