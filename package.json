@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "less": "^4.1.1",
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -17,11 +24,5 @@
   "bugs": {
     "url": "https://github.com/simonmeier3/mod-152/issues"
   },
-  "homepage": "https://github.com/simonmeier3/mod-152#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "fs": "0.0.1-security",
-    "less": "^4.1.1",
-    "node-sass": "^5.0.0"
-  }
+  "homepage": "https://github.com/simonmeier3/mod-152#readme"
 }
